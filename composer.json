@@ -1,0 +1,22 @@
+{
+    "name": "argil-data/arxitall",
+    "description": "TALL stack UI components library",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "homepage": "https://argil-data.agency",
+    "authors": [
+        {
+            "name": "Vincent Delaleu",
+            "homepage": "https://vincentdelal.eu",
+            "email": "12876957+delvvince@users.noreply.github.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ArgilData\\Arxitall\\": "src/"
+        }
+    },
+    "require": {}
+}
