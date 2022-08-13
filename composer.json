@@ -1,6 +1,7 @@
 {
     "name": "argil-data/arxitall",
     "description": "TALL stack UI components library",
+    "keywords": ["tall", "components", "library", "laravel", "livewire"],
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
@@ -18,5 +19,11 @@
             "ArgilData\\Arxitall\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "php": "^8.0|8.1",
+        "laravel/framework": "^8.83|^9.16",
+        "livewire/livewire": "^2.10"
+    },
+    "prefer-stable": true
+
 }
