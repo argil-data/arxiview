@@ -19,6 +19,11 @@
             "ArgilData\\Arxitall\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
     "require": {
         "php": "^8.0|8.1",
         "laravel/framework": "^8.83|^9.16",
