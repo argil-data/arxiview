@@ -1,6 +1,6 @@
 <?php
 
-namespace ArgilData\ArxiView;
+namespace ArgilData\ArxiView\ArxiViewServiceProvider;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\App;
