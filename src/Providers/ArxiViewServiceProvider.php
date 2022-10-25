@@ -19,7 +19,7 @@ class ArxiViewServiceProvider extends ServiceProvider
     public function boot() {
         //dd('ArxiView Service Provider');
 
-        
+
         //views
         $this->loadViewsFrom(__DIR__ . '/../views', 'arxi');
         $this->loadViewsFrom(__DIR__.'/../views/components', 'arxi');
@@ -41,7 +41,7 @@ class ArxiViewServiceProvider extends ServiceProvider
 
 
         // LIVEWIRE COMPONENTS
-        Livewire::component('some-component', SomeComponent::class);
+        // Livewire::component('some-component', SomeComponent::class);
 
     }
 
