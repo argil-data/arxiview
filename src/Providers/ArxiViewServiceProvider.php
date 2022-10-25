@@ -17,9 +17,9 @@ class ArxiViewServiceProvider extends ServiceProvider
 {
 
     public function boot() {
-        dd('ArxiView Service Provider');
+        //dd('ArxiView Service Provider');
 
-
+        
         //views
         $this->loadViewsFrom(__DIR__ . '/../views', 'arxi');
         $this->loadViewsFrom(__DIR__.'/../views/components', 'arxi');
