@@ -1,6 +1,6 @@
 <?php
 
-namespace ArgilData\ArxiView\ArxiViewServiceProvider;
+namespace ArgilData\ArxiView\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\App;
@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Blade;
 use Illuminate\View\Compilers\BladeCompiler;
 use Illuminate\View\ComponentAttributeBag;
 
-use ArgilData\ArxiView;
+// use ArgilData\ArxiView;
 // use ArgilData\ArxiView\View\Components\{
 //     Input,
 // };

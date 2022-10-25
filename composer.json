@@ -55,7 +55,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ArgilData\\ArxiView\\ArxiViewServiceProvider"
+                "ArgilData\\ArxiView\\Providers\\ArxiViewServiceProvider"
             ],
             "aliases": {
                 "ArxiView": "ArgilData\\ArxiView\\Facade"
