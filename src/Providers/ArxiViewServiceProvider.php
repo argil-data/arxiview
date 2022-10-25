@@ -9,9 +9,10 @@ use Illuminate\View\Compilers\BladeCompiler;
 use Illuminate\View\ComponentAttributeBag;
 
 use ArgilData\ArxiView;
-// use ArgilData\ArxiView\View\Components\{
-//     Input,
-// };
+use ArgilData\ArxiView\View\Components\{
+    Button,
+    //Input,
+};
 
 class ArxiViewServiceProvider extends ServiceProvider 
 {
@@ -37,8 +38,8 @@ class ArxiViewServiceProvider extends ServiceProvider
 
         
         // BLADE COMPONENTS
-
-
+        Blade::component('btnsrctest', Button::class);
+        Blade::component('vui-button', Button::class);
 
         // LIVEWIRE COMPONENTS
         // Livewire::component('some-component', SomeComponent::class);
