@@ -1,6 +1,6 @@
 {
-    "name": "argil-data/arxitall",
-    "description": "TALL stack UI components library",
+    "name": "argil-data/arxiview",
+    "description": "TALL stack UI views and components library",
     "keywords": ["tall", "components", "library", "laravel", "livewire"],
     "type": "library",
     "license": "MIT",
@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "ArgilData\\Arxitall\\": "src/"
+            "ArgilData\\ArxiView\\": "src/"
         }
     },
     "autoload-dev": {

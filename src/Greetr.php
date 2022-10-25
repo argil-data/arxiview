@@ -1,6 +1,6 @@
 <?php
 
-namespace ArgilData\Arxitall;
+namespace ArgilData\ArxiView;
 
 class Greetr
 {
