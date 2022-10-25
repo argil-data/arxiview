@@ -6,6 +6,6 @@ class Greetr
 {
     public function greet(String $sName)
     {
-        return 'Hi ' . $sName . '! How are you doing in composer?';
+        return 'Hi ' . $sName . '! How are you doing in composer my Arxi View?';
     }
 }
