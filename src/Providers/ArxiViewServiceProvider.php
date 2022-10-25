@@ -8,12 +8,12 @@ use Illuminate\Support\Facades\Blade;
 use Illuminate\View\Compilers\BladeCompiler;
 use Illuminate\View\ComponentAttributeBag;
 
-// use ArgilData\ArxiView;
+use ArgilData\ArxiView;
 // use ArgilData\ArxiView\View\Components\{
 //     Input,
 // };
 
-class ArxiViewServiceProvider extends AppServiceProvider 
+class ArxiViewServiceProvider extends ServiceProvider 
 {
 
     public function boot() {
