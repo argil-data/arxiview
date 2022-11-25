@@ -32,13 +32,13 @@ module.exports = {
             ...defaultTheme.screens,
             'desktop' : {'min': '1920px'},
         },
-        colors: {
-            transparent: 'transparent',
-            current: 'currentColor',
-            white: '#fff',
-            black: '#000',
-            main: '#333',
-        },
+        // colors: {
+        //     transparent: 'transparent',
+        //     current: 'currentColor',
+        //     white: '#fff',
+        //     black: '#000',
+        //     main: '#333',
+        // },
         borderWidth: {
             DEFAULT: '1px',
             '0': '0',
