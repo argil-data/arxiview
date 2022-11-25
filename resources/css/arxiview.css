@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    @apply font-sans;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+}
+/* .fox-transition class? */
+
+/* BUTTON SIZE */
 .btn-sm {
     @apply px-4;
     @apply py-1;
@@ -19,18 +31,104 @@
     @apply text-lg;
 }
 
+/* BUTTON VARIANT */
+.btn-filled {
+    @apply border-2;
+}
+.btn-outlined {
+    @apply border-2;
+}
+.btn-text {
+    @apply  bg-white/50 hover:bg-teal-100/50 dark:bg-teal-500/30 hover:dark:bg-teal-500/40;
+}
+
+/* BUTTON COLOUR */
+.btn-teal.btn-filled:not(.disabled) {
+    @apply border-teal-500 bg-teal-500 text-white hover:text-teal-500 hover:bg-white;
+}
+.btn-teal.btn-outlined:not(.disabled) {
+    @apply border-teal-500 bg-white text-teal-500 hover:text-white hover:bg-teal-500;
+}
+
+.btn-cyan.btn-filled:not(.disabled) {
+    @apply border-cyan-500 bg-cyan-500 text-white hover:text-cyan-500 hover:bg-white;
+}
+.btn-cyan.btn-outlined:not(.disabled) {
+    @apply border-cyan-500 bg-white text-cyan-500 hover:text-white hover:bg-cyan-500;
+}
+
+.btn-red.btn-filled:not(.disabled) {
+    @apply border-red-500 bg-red-500 text-white hover:text-red-500 hover:bg-white;
+}
+.btn-red.btn-outlined:not(.disabled) {
+    @apply border-red-500 bg-white text-red-500 hover:text-white hover:bg-red-500;
+}
+
+.btn-gray.btn-filled:not(.disabled) {
+    @apply border-gray-500 bg-gray-500 text-white hover:text-gray-500 hover:bg-white;
+}
+.btn-gray.btn-outlined:not(.disabled) {
+    @apply border-gray-500 bg-white text-gray-500 hover:text-white hover:bg-gray-500;
+}
+
+.btn-orange.btn-filled:not(.disabled) {
+    @apply border-orange-500 bg-orange-500 text-white hover:text-orange-500 hover:bg-white;
+}
+.btn-orange.btn-outlined:not(.disabled) {
+    @apply border-orange-500 bg-white text-orange-500 hover:text-white hover:bg-orange-500;
+}
+
 /* .btn-primary {
-    @apply border-iris-500 text-iris-500 bg-white hover:bg-iris-500 hover:text-white active:bg-iris-600;
+    @apply border-teal-500 text-white bg-teal-500 hover:bg-white hover:text-teal-500 hover:border-teal-500 active:bg-teal-100;
 }
-
 .btn-secondary {
-    @apply border-white text-white bg-iris-500 hover:bg-white hover:text-iris-500 hover:border-iris-500 active:bg-iris-100;
+    @apply border-teal-500 text-teal-500 bg-white hover:bg-teal-500 hover:text-white active:bg-teal-600;
 }
-
 .btn-error {
-    @apply border-red-500 text-red-500 bg-white hover:bg-red-500 hover:text-white active:bg-red-300;
+    @apply border-red-500 text-red-500 bg-white hover:bg-red-500 hover:text-white active:bg-red-500;
 }
-
 .btn-success {
     @apply border-jade-500 text-jade-500 bg-white hover:bg-jade-500 hover:text-white active:bg-jade-300;
 } */
+
+/* INPUT TYPES */
+.input {
+    @apply cursor-pointer h-14 py-3 flex px-4 justify-center border-2 border-teal-100 focus:border-teal-500 mt-2 text-sm lg:text-base font-light;
+}
+
+.input-text, input[type="text"] {
+    @apply rounded-lg border-2 border-teal-100 focus:border-teal-500;
+}
+.input-email, input[type="email"] {
+    @apply rounded-lg border-2 border-teal-100 focus:border-teal-500;
+}
+.input-tel, input[type="tel"] {
+    @apply rounded-lg border-2 border-teal-100 focus:border-teal-500;
+}
+.input-password, input[type="password"] {
+    @apply rounded-lg border-2 border-teal-100 focus:border-teal-500;
+}
+.input-date, input[type="date"] {
+    @apply rounded-lg border-2 border-teal-100 focus:border-teal-500;
+}
+.input-time, input[type="time"] {
+    @apply rounded-lg border-2 border-teal-100 focus:border-teal-500;
+}
+.input-color, input[type="color"] {
+    @apply p-1 rounded-lg border-2 border-teal-100 focus:border-teal-500;
+}
+
+.select, select {
+    @apply rounded-lg border-2 border-teal-100 focus:border-teal-500;
+}
+
+/* TOGGLE */
+.toggle-checkbox:checked {
+    @apply: right-0 border-jade-500;
+    right: 0;
+    border-color: #68D391;
+}
+.toggle-checkbox:checked + .toggle-label {
+    @apply: bg-jade-500;
+    background-color: #68D391;
+}
