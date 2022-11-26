@@ -41,9 +41,13 @@
             {{-- ])->merge(['type' => 'button']) }} --}}
             
             {{ $attributes->class([
-                $variant == 'text' ? 'text-'.$color.'-500 dark:text-white' : '',
-                $variant == 'filled' ? 'border-2 border-'.$color.'-500 bg-'.$color.'-500 text-white hover:text-'.$color.'-500 hover:bg-white ' : '',
-                $variant == 'outlined' ? 'border-2 border-'.$color.' text-'.$color.'-500 hover:text-white bg-white hover:bg-'.$color.'-500' : '',
+                $variant == 'text' ? 'text-teal-500 dark:text-white' : '',
+                $variant == 'filled' ? 'border-2 border-teal-500 bg-teal-500 text-white hover:text-teal-500 hover:bg-white ' : '',
+                $variant == 'outlined' ? 'border-2 border-teal text-teal-500 hover:text-white bg-white hover:bg-teal-500' : '',
+
+                // $variant == 'text' ? 'text-'.$color.'-500 dark:text-white' : '',
+                // $variant == 'filled' ? 'border-2 border-'.$color.'-500 bg-'.$color.'-500 text-white hover:text-'.$color.'-500 hover:bg-white ' : '',
+                // $variant == 'outlined' ? 'border-2 border-'.$color.' text-'.$color.'-500 hover:text-white bg-white hover:bg-'.$color.'-500' : '',
                 // 'border-grey-200 bg-grey-200 hover:bg-grey-300' => $grey,
                 // 'border-grey-500 bg-grey-600 hover:bg-grey-800 text-white' => $darkGrey,
                 'disabled cursor-default opacity-80' => $disabled,
@@ -64,9 +68,13 @@
         {{-- Navigates to another view --}}
         <a 
         {{ $attributes->class([
-            $variant == 'text' ? 'text-'.$color.'-500 dark:text-white' : '',
-            $variant == 'filled' ? 'border-2 border-'.$color.'-500 bg-'.$color.'-500 text-white hover:text-'.$color.'-500 hover:bg-white ' : '',
-            $variant == 'outlined' ? 'border-2 border-'.$color.' text-'.$color.'-500 hover:text-white bg-white hover:bg-'.$color.'-500' : '',
+            $variant == 'text' ? 'text-teal-500 dark:text-white' : '',
+            $variant == 'filled' ? 'border-2 border-teal-500 bg-teal-500 text-white hover:text-teal-500 hover:bg-white ' : '',
+            $variant == 'outlined' ? 'border-2 border-teal text-teal-500 hover:text-white bg-white hover:bg-teal-500' : '',
+
+            // $variant == 'text' ? 'text-'.$color.'-500 dark:text-white' : '',
+            // $variant == 'filled' ? 'border-2 border-'.$color.'-500 bg-'.$color.'-500 text-white hover:text-'.$color.'-500 hover:bg-white ' : '',
+            // $variant == 'outlined' ? 'border-2 border-'.$color.' text-'.$color.'-500 hover:text-white bg-white hover:bg-'.$color.'-500' : '',
             // 'border-grey-200 bg-grey-200 hover:bg-grey-300' => $grey,
             // 'border-grey-500 bg-grey-600 hover:bg-grey-800 text-white' => $darkGrey,
             'disabled cursor-default opacity-80' => $disabled,
